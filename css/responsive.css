@@ -1,0 +1,91 @@
+@media screen and (max-width:770px){
+    .navbar{
+        width: 90%;
+    }
+    .logo h2 a{
+        font-size: 20px;
+    }
+    #menu_bar{
+        display: grid;
+        color: aliceblue;
+        position: absolute;
+        right: 5%;
+        top: 25%;
+        border: 1px solid white;
+        width: 30px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+    .nav_links{
+        flex-direction: column;
+        position: absolute;
+        background-color: #24292d;
+        width: 100%;
+        left: 0;
+        padding:0;
+        
+    }
+    .nav_links li a{
+        
+        display: block;
+        border-radius: 0;
+        padding: 10px 0;
+        margin: 0 20px;
+    }
+   .inner_anasayfa{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+   }
+   .child_anasayfa:last-child{
+    margin-bottom: 20px;
+
+   }
+   .child_anasayfa h1{
+    font-size: 30px;
+    line-height: 35px;
+   }
+   .child_anasayfa p{
+    font-size: 20px;
+   }
+
+   .innersofware_child{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+    
+   }
+   .child_courses{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+    
+   }
+   .child_achivement{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+    
+   }
+   .single_detail{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+    
+   }
+   .child_testi{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+   }
+   .child_contact{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+   }
+   .child_footer{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+   }
+   .child_footer h3{
+    margin-bottom: 10px;
+   }
+
+
+}
